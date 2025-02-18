@@ -59,21 +59,12 @@ Mem:   4096MB total,  2000MB used,  2096MB free,   512MB buffers
 </pre>
 ```
 
-### **7. Submitting the Test**
-For submission:
-- **Link 1:** `https://your-codespace-url.github.dev/htop`
-- **Link 2:** GitHub repository link (`https://github.com/your-repo`)
 
 ## 🛠 Troubleshooting
 ### **If you see "404 Not Found"**
 - Ensure the Flask app is running.
 - Check if the port is **exposed and set to Public** in the **Ports tab**.
 - Restart the app and use `8080`, `5500`, or `3000`.
-
-### **If the URL doesn’t work**
-- Try opening in an **Incognito Tab**.
-- Ensure the Codespace is running and hasn’t timed out.
-- Use `gh codespace ports visibility 8080:public -c $CODESPACE_NAME` to manually set the port visibility.
 
 ---
 
